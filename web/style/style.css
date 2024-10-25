@@ -1,0 +1,201 @@
+body{
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.menu{
+  width: 900px;
+  margin: 0 auto;
+}
+#logoindex{
+  width: 220px;
+  height: 50px;
+  float: left;
+  padding: 8px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  position: relative;
+  float: left;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+
+}
+
+nav ul li a::before{
+  width: 0%;
+  background-color: #444;
+  content: '';
+  height: 5px;
+  top: 0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover:before{
+  width: 100%;
+}
+
+header{
+  background-color: #f3efef;
+  width: 100%;
+  clear: both;
+  display: table;
+}
+
+.principal{
+  background-image: url(../images/Inicio.png);
+  height: 370px;
+  color: white;
+  font-size: xx-large;
+  padding-top: 100px;
+  padding-left: 150px;
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.principal p{
+  font-size: medium;
+  padding-top: 20px;
+}
+
+.informacion h2{
+  font-size: 35px;
+  text-align: center;
+}
+
+.parrafoprin{
+  font-size: 16px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: #3e4a5791;
+  color: black;
+  bottom: 0;    
+  width: 100%;
+  position: absolute;
+}
+
+footer div{
+  padding-top: 30px;
+  padding-left: 500px;
+  float: left;
+}
+
+footer section{
+  padding-top: 30px;
+  padding-right: 500px;
+  float: right;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+footer img{
+  width: 30px;
+  height: 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+.form-register {
+  width: 500px;
+  background: #808080;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  width: 100%;
+  background: #4b4b4b;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#checkbox{
+  margin-right: 6px;
+}
+
+.btnSubmit{
+  margin-left: 41%;
+  padding: .375rem .75rem;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  color: #007bff;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+.btnSubmit:hover, .btnSubmit:active, .btnSubmit:focus {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.divproducto{
+  width: 301px;
+  float: inline-start;
+  margin-top: 4%;
+  margin-left: 13%;
+  overflow:hidden;
+}
+
+.divproducto:hover{
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+.divproducto img{
+  border-radius: 10px;
+  width: 300px;
+}
+
+.divproducto h2{
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.divproducto ul{
+  list-style:none;
+}
+
+.divproducto li{
+  margin-top: 6px;
+  text-align: center;
+}
